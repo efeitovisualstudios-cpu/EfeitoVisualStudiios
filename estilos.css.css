@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f8f6;
+  color: #121926;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: #121926;
+  padding: 1rem 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links li a {
+  color: #f9f8f6;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  background-color: #4E8DF5;
+}
+
+h1, h2 {
+  color: #121926;
+  margin-bottom: 0.6rem;
+}
+
+ul li {
+  margin-bottom: 0.7rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.cta a,
+.whatsapp-link {
+  display: inline-block;
+  background-color: #25D366;
+  color: white !important;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+  transition: background-color 0.3s;
+}
+
+.cta a:hover,
+.whatsapp-link:hover {
+  background-color: #1DA851;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+}
